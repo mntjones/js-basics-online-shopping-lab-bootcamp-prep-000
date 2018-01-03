@@ -86,8 +86,3 @@ function placeOrder(cardNumber) {
     cart = []
   }
 }
-
-addToCart("banana")
-addToCart("peach")
-addToCart("bread")
-placeOrder()
