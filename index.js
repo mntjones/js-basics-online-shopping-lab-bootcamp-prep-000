@@ -70,11 +70,11 @@ function removeFromCart(item) {
     }
     
     else {
-      
+      console.log("That item is not in your cart.")
     }
   }
   
-  console.log(cart)
+   return cart
 }
 
 function placeOrder(cardNumber) {
