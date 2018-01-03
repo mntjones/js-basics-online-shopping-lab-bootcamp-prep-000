@@ -81,4 +81,4 @@ addToCart("banana")
 addToCart("peach")
 addToCart("bread")
 
-removeFromCart("banana")
+removeFromCart("bread")
