@@ -79,4 +79,4 @@ function placeOrder(cardNumber) {
 addToCart("banana")
 addToCart("peach")
 
-removeFromCart("bread")
+removeFromCart("banana")
