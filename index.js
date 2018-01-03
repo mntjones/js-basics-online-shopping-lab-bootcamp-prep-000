@@ -66,7 +66,7 @@ function removeFromCart(item) {
   for (let i=0; i<cart.length; i++) {
     if(String(Object.keys(cart[i])) === item) {
       inCart = true
-      cart.splice((i-1),1)
+      cart.splice(i,1)
     }
   }
   
