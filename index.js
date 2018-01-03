@@ -68,6 +68,10 @@ function removeFromCart(item) {
       inCart = true
       cart.splice(i,1)
     }
+    
+    else {
+      
+    }
   }
   
   console.log(cart)
