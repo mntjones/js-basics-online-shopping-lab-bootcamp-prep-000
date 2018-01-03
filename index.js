@@ -69,11 +69,9 @@ function removeFromCart(item) {
       cart.splice(i,1)
     }
   }
-  
   if(inCart === false) {
     console.log("That item is not in your cart.")
   }
-  
    return cart
 }
 
