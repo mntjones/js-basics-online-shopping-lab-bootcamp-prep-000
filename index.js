@@ -90,4 +90,4 @@ function placeOrder(cardNumber) {
 addToCart("banana")
 addToCart("peach")
 addToCart("bread")
-placeOrder(123456789)
+placeOrder()
