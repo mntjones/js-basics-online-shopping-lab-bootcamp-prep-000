@@ -67,7 +67,7 @@ function removeFromCart(item) {
     if(String(Object.keys(cart[i])) === item) {
       inCart = true
       console.log(cart)
-      console.log(cart.splice(i,1))
+      console.log(cart.splice((i-1),1))
     }
     console.log(inCart)
     
