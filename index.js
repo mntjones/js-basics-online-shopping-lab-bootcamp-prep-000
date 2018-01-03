@@ -68,7 +68,8 @@ function removeFromCart(item) {
       inCart = delete cart[item]
       
       console.log(cart)
-    }console.log(inCart)
+    }
+    console.log(inCart)
   }
 }
 
